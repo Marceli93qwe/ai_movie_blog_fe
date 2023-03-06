@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "types": [
+        "../ai_movie_blog_be/types"
+      ]
+    }
+  }
+}
