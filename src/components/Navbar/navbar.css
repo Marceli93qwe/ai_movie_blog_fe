@@ -1,0 +1,29 @@
+.navbar {
+    height: 10vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 0 10px;
+}
+
+.desktop {
+    display: flex;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
